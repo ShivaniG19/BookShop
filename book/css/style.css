@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 0px;
+}
+#logo{
+     margin: 20px 38px;
+
+}
+#logo img{
+    height: 70px;
+    margin: 3px 6px;
+}
+
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+#navbar::before{
+    content: "";
+    background-color: rgb(8, 8, 63);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    
+   
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 2.5rem;
+}
+
+#navbar ul li a{
+    color:white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: nonesssss;
+}
+
+#navbar ul li :hover{
+    color:white;
+    background-color:rgb(182, 32, 62);
+
+}
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 6px;
+    height: 1250px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{
+    content: "";
+    background: url('../book.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 75%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+   
+}
+
+#home h1{
+   color: white;
+   text-align: center;
+   font-family: 'Bree Serif', serif;
+   font-size: 6.5rem;
+}
+
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Bree Serif', serif;
+    padding-bottom: 25px ;
+    line-height: 2vh;
+}
+
+#home button {
+    padding-top:  15px;
+} 
+
+#home button a{
+    background-color: #3d3d3d;
+    padding: 15px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+}
+
+#home button :hover {
+    background-color: hsl(348, 83%, 47%);
+    color: white;
+}
+#services{
+    margin: 35px 100px;
+    margin-top: 30px;
+    display: flex;
+}
+
+#services .box{
+    border: 3px solid brown;
+    padding: 34px;
+    height: 600px;
+    width: 1000px;
+    margin: 20px 35px;
+    border-radius: 28px;
+    background-color:gainsboro;
+}
+
+#services .box img{
+    height: 300px;
+    padding: 6px;
+    margin: auto;
+    display: block;
+
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+    
+
+}
+
+#service{
+    
+    margin: 35px 100px;
+    display: flex;
+}
+
+#service .box{
+    border: 3px solid brown;
+    padding: 40px;
+    height: 600px;
+    width: 1000px;
+    margin: 20px 35px;
+    border-radius: 28px;
+    background-color:gainsboro;
+}
+
+#service .box img{
+    height: 300px;
+    padding: 6px;
+    margin: auto;
+    display: block;
+
+}
+
+#service .box p{
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+  
+}
+
+#contact{
+    position: relative;
+    
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    justify-content: center;
+    background: url('../mag.jpg') no-repeat center center/cover;
+    
+
+}
+#contact h1{
+    padding-top: 100px;
+}
+
+#contact-box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:500px ;
+    padding-top: 50px;
+   
+   
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 9px;
+    font-size: 2rem;
+}
+
+#contact-box form{
+    width: 24%;
+}
+
+#contact-box label{
+    font-size: 2.5rem;
+    font-family: 'Bree Serif', serif;
+    font-weight: 400;
+}
+
+#contact-box button{
+    margin: 40px;
+    justify-content: center;
+    position: relative;
+    
+
+}
+#contact-box button a{
+    background-color: #3d3d3d;
+    padding: 15px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+
+}
+
+#contact-box button :hover {
+    background-color: hsl(348, 83%, 47%);
+    color: white;
+}
+footer{
+    background: black;
+    color:white;
+    padding: 9px 2px;
+}
+
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+}
+
+.h-secondary{
+    font-size: 2.3rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+}
+
+
+
+
+
+.center{
+    text-align: center;
+}

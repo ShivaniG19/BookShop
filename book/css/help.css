@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+
+}
+.section{
+    width: 100%;
+    min-height:100vh; 
+    padding: 20px;
+    background-color:rgb(245, 140, 140);
+    justify-content: center;
+    text-align: center;
+    
+}
+
+ 
+.section h3{
+    font-size: 4.8rem;
+    padding: 20px;
+    margin-top: 150px;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+
+}
+
+.search-box{
+    position:absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: black;
+    height: 90px;
+    width: 700px;
+    border-radius: 4rem;
+}
+
+
+.search-text{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding-top: 20px;
+    padding-left: 40px;
+    color:seashell;
+    font-size:35px;
+    transition: 0.4s;
+    line-height: 40px;
+}
+
+.search-box img{
+    float: right;
+    padding-top: 20px ;
+    padding-right: 40px;
+}
+
+.section h4{
+    font-size: 2.8rem;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+
+}
+#help{
+    margin: 34px;
+    display: flex;
+   padding-top: 700px;
+   padding-left: 700px;
+    padding-right: 700px;
+    
+ }
+#help .box{
+    border: 3px solid brown;
+    padding: 34px;
+    height: 670px;
+    margin: 40px 35px;
+    border-radius: 28px;
+    background-color:rgb(226, 178, 178);
+    width: 700px;
+}
+
+#help .box img{
+    height: 300px;
+    padding: 6px;
+    margin: auto;
+    display: block;
+
+}
+
+#help .box p{
+    font-family: 'Bree Serif', serif;
+    font-size: 1.5rem;
+    
+}
+
+
+#help .box button{
+    margin-top: 10px;
+    justify-content: center;
+    position: relative;
+    font-size: 2.8rem;
+   
+}
+
+#help .box button a{
+    background-color: #3d3d3d;
+    padding: 10px 20px;
+    text-decoration: none;
+    color:white;
+    font-size: 1.9rem;
+    letter-spacing: 1.5px;
+}
+
+#help .box button a:hover {
+    background-color: hsl(348, 97%, 43%);
+    color: white;
+}
